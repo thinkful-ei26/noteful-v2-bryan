@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS notes;
 
 
 CREATE TABLE notes (
-  id SERIAL Primary Key,
+  id serial Primary Key,
   title text NOT NULL,
   content text,
   created timestamptz
